@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* Inputs e textareas (já aplicadas) */
+  input,
+  textarea {
+    @apply bg-white text-gray-900 border border-gray-300 rounded p-2;
+  }
+
+  html.dark input,
+  html.dark textarea {
+    @apply bg-gray-800 text-gray-100 border-gray-700;
+  }
+
+  /* Botões padrão */
+  button {
+    @apply bg-gray-200 text-gray-900 border border-gray-300 rounded;
+  }
+
+  html.dark button {
+    @apply bg-gray-700 text-gray-100 border-gray-600;
+  }
+
+  /* Estado ativo (clicado) */
+  button:active {
+    @apply bg-gray-300;
+  }
+
+  html.dark button:active {
+    @apply bg-gray-600;
+  }
+
+  /* Itens selecionados (lista) */
+  .selected {
+    @apply bg-blue-100 text-gray-900 border-blue-500;
+  }
+
+  html.dark .selected {
+    @apply bg-blue-900 text-gray-100 border-blue-400;
+  }
+
+  body {
+    @apply font-sans bg-neutral-50 text-neutral-900;
+  }
+  html.dark body {
+    @apply bg-neutral-900 text-neutral-50;
+  }
+}

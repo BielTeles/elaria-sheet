@@ -1,0 +1,32 @@
+{
+  "name": "elaria-sheet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.3.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@shadcn/ui": "^0.0.4",
+    "elaria-sheet": "file:",
+    "framer-motion": "^12.12.1",
+    "howler": "^2.2.4",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-confetti": "^6.4.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0",
+    "uuid": "^11.1.0"
+  }
+}
